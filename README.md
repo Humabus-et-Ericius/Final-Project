@@ -10,3 +10,4 @@
 - Jinja
 - Flask
 
+Доска с черновика: https://www.figma.com/board/fAEiTkM8gvfElAo0z39Cf5/Untitled?node-id=0-1&t=xjQM33zPuU7QDTLm-1
