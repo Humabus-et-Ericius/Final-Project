@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<head>
+    <link rel="stylesheet" href="../../static/css/style.css"> 
+</head>
+<body>
+    {% block content %}
+    {{t1}}
+    {% endblock %}
+
+    <form action="{{ url_for('index') }}" method="post" class="form">
+        <button class="special_button" type="submit">• Вернутся назад</button>
+    </form>
+</body>

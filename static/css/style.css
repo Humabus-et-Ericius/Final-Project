@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+    color: lime;
+}
+
+div{
+    display: contents;
+}
+
+h4{
+    font-size: 15px;
+}
+
+button{
+    color: lime;
+    background-color: black;
+    border: #ffff 0;
+    font-size: larger;
+    text-indent: 30px;  
+}
+
+.special_button{
+    margin-bottom: 25px;
+    margin-top: 0px;
+}
+
+button:hover{
+    color: white
+}
+
+.item__img {
+    object-fit: contain;
+    width: 200px;
+    margin-bottom: 10px;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.counter {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.button_right {
+    width: 0;
+    height: 0;
+    border-top: 10px solid #000000;
+    border-left: 20px solid lime;
+    border-right: 0px solid #000000;
+    border-bottom: 10px solid #000000;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center; 
+    position: relative;
+    bottom: 5px;
+}
+
+.button_left{
+    width: 0;
+    height: 0;
+    border-top: 10px solid #000000;
+    border-left: 0px solid #000000;
+    border-right: 20px solid lime;
+    border-bottom: 10px solid #000000;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center; 
+    position: relative;
+    bottom: 5px;
+}
